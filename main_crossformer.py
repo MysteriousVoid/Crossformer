@@ -61,7 +61,7 @@ data_parser = {
     'ECL':{'data':'ECL.csv', 'data_dim':321, 'split':[15*30*24, 3*30*24, 4*30*24]},
     'ILI':{'data':'national_illness.csv', 'data_dim':7, 'split':[0.7, 0.1, 0.2]},
     'Traffic':{'data':'traffic.csv', 'data_dim':862, 'split':[0.7, 0.1, 0.2]},
-    'stock':{'data':'stock.csv', 'data_dim':5, 'split':[0.7, 0.1, 0.2]},
+    'stock':{'data':'AKAM.csv', 'data_dim':6, 'split':[0.7, 0.1, 0.2]},
 }
 if args.data in data_parser.keys():
     data_info = data_parser[args.data]
