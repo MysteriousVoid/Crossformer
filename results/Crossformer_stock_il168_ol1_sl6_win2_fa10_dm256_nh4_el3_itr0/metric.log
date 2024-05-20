@@ -1,0 +1,10 @@
+Data Path: ./datasets/AKAM.csv
+Data Split: [0.7, 0.1, 0.2]
+Input Length:168   Output Length:1
+Inverse to original scale: False
+
+MAE:0.2827996611595154
+MSE:0.389504611492157
+RMSE:0.570626437664032
+MAPE:2.6975064277648926
+MSPE:1698.13525390625
